@@ -12,8 +12,8 @@ import lombok.NoArgsConstructor;
 @Valid
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
-    @Max(value = 8, message = "id cannot be greater than 8")
+public class CatalogUser {
+    @Max(value = 9, message = "id cannot be greater than 8")
     private String id;
     @NotBlank(message = " Genre is required")
     private String Genre;
